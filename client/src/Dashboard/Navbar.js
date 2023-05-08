@@ -11,8 +11,6 @@ import UserInfo from "./UserInfo";
 import Person2Icon from '@mui/icons-material/Person2';
 import DashLogo from '../components/Images/TechVenture-White.png';
 
-
-
 const Navbar = () => {
   const navigate = useNavigate();
   const [showMediaIcons, setShowMediaIcons] = useState(false);

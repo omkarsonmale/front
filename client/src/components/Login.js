@@ -211,9 +211,9 @@ const Login = () => {
               <input name="passwordLog" value={logUserData.passwordLog} onChange={handleInputLog} type="password" />
               <label>Password</label>
             </div>
-            <div className="forgot-pass">
+            {/* <div className="forgot-pass">
               <a onClick={()=>{navigate('/checkgmail')}}>Forgot Password?</a>
-            </div>
+            </div> */}
             {/* <NavLink to={'/development'}> */}
             <button type="submit" className="btn1">
               Login

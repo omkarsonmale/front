@@ -1,4 +1,4 @@
-export const host = "http://localhost:5000";
+export const host = "https://dlms-server.onrender.com";
 export const regRoute = `${host}/api/auth/register`;
 export const logRoute = `${host}/api/auth/login`;
 export const changePassRoute = `${host}/api/auth/changepassword`;
